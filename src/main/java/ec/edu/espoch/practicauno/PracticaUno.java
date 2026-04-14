@@ -8,15 +8,15 @@ public class PracticaUno {
         Vehicle vehicle1 = new Vehicle(7, "JGUR-6793", "chevrolet", 265);
         Routes routes1 = new Routes("14-4-2026", "Moretal", 30.1, 60, 60, vehicle1, driver1);
         System.out.println("-----------------------------");
-        System.out.println("DRIVER DATA");
+        System.out.println("Driver Data");
         driver1.printDriver();
         System.out.println("-----------------------------");
 
-        System.out.println("VEHICLE DATA");
+        System.out.println("Vehicle Data");
         vehicle1.printVehicle();
         System.out.println("-----------------------------");
 
-        System.out.println("ROUTE DATA");
+        System.out.println("Route Data");
         routes1.printRoutes();
         System.out.println("-----------------------------");
 
