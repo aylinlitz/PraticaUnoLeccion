@@ -38,10 +38,10 @@ public class Vehicle {
     }
 
     public void printVehicle() {
-        System.out.println("Code: " + internalCode);
+        System.out.println("Codigo interno: " + internalCode);
         System.out.println("Placa: " + licensePlate);
         System.out.println("Marca: " + brand);
-        System.out.println("Capacidad: " + maxLoadCapacity);
+        System.out.println("Maxima carga de capacidad: " + maxLoadCapacity);
         System.out.println("Bateria: " + batteryL);
         System.out.println("Estado: " + states);
     }
