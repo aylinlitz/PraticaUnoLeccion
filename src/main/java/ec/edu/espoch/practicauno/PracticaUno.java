@@ -5,7 +5,7 @@ public class PracticaUno {
     public static void main(String[] args) {
 
         Driver driver1 = new Driver("Maria", "Riera",1678, 045672, 10);
-        Vehicle vehicle1 = new Vehicle(7, "JGUR-6793", "chevrolet", 200);
+        Vehicle vehicle1 = new Vehicle(7, "JGUR-6793", "chevrolet", 265);
         Routes routes1 = new Routes("14-4-2026", "Moretal", 30.1, 60, 60, vehicle1, driver1);
         System.out.println("-----------------------------");
         System.out.println("DRIVER DATA");
